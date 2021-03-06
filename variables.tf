@@ -35,7 +35,7 @@ variable "plan_gpu" {
 variable "plan_primary" {
   type        = string
   description = "K8s Primary Plan (Defaults to x86 - baremetal_0)"
-  default     = "c1.small.x86"
+  default     = "c3.small.x86"
 }
 
 variable "cluster_name" {
