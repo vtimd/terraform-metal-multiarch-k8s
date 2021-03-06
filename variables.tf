@@ -23,7 +23,7 @@ variable "plan_arm" {
 variable "plan_x86" {
   type        = string
   description = "Plan for K8s x86 Nodes"
-  default     = "c1.small.x86"
+  default     = "c3.small.x86"
 }
 
 variable "plan_gpu" {
