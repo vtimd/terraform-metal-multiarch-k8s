@@ -17,7 +17,7 @@ variable "project_id" {
 variable "plan_arm" {
   type        = string
   description = "Plan for K8s ARM Nodes"
-  default     = "baremetal_2a"
+  default     = "baremetal_3"
 }
 
 variable "plan_x86" {
